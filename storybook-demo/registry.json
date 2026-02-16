@@ -1,0 +1,82 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "workshop-registry",
+  "homepage": "https://your-team-url.com",
+  "items": [
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Workshop button with custom variants including default, destructive, outline, secondary, ghost, and link styles.",
+      "dependencies": ["radix-ui", "class-variance-authority"],
+      "registryDependencies": ["utils"],
+      "files": [
+        {
+          "path": "src/components/ui/button.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Status indicator badge with semantic variants for labels, notifications, and status displays.",
+      "dependencies": ["radix-ui", "class-variance-authority"],
+      "registryDependencies": ["utils"],
+      "files": [
+        {
+          "path": "src/components/ui/badge.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/badge.tsx"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Card container with header, title, description, content, action, and footer sub-components.",
+      "dependencies": [],
+      "registryDependencies": ["utils"],
+      "files": [
+        {
+          "path": "src/components/ui/card.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "Text input field with focus ring, validation states, and file input support.",
+      "dependencies": [],
+      "registryDependencies": ["utils"],
+      "files": [
+        {
+          "path": "src/components/ui/input.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "title": "Label",
+      "description": "Accessible form label built on Radix UI Label primitive.",
+      "dependencies": ["radix-ui"],
+      "registryDependencies": ["utils"],
+      "files": [
+        {
+          "path": "src/components/ui/label.tsx",
+          "type": "registry:ui",
+          "target": "components/ui/label.tsx"
+        }
+      ]
+    }
+  ]
+}
